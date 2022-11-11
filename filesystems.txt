@@ -1,0 +1,13 @@
+1. boot  =  It contains OS bootable files. OS will boot with help of /boot directory data . impact if we delete data from /boot: os will not bootup/run if we delete data from /boot.
+2. root = in unix and linux servers root is a admin for him home directory is /root.  /root is a home directory of root user.  other than root no one will have access to /root 
+3.home = here home directories allocated for normal users other than root.4. etc = it contains configuration files of OS and other softwares.  in windows we will call setting but in linux we will adjust parameters in /etc directory
+4. etc = it contains configuration files of OS and other softwares.  in windows we will call setting but in linux we will adjust parameters in /etc directory
+5. var = (variable files) it contains system activity logs. which user,what time logged in and what he did that kind of data will available in /var.
+6. usr = it contains user binary programs. what is binary? commands (cd,ls,rm,cat,useradd,userdel,lvcreate). command is nothing but pre-defined program.
+7. bin = common commands for all the users (administrator and normal)
+8. sbin = super user binary commands, nothing but administrator commands.
+9. lib =  Library files. It contains os programs. commands will execute with help of library program.
+10. dev = it contains actually logical names of devices
+11. proc = it contains processor execution jobs information whenever processor is running.
+12. mnt =  nothing data will exist in /mnt. we can use it for mount pendrive to /mnt 
+13. tmp = running processes can use /tmp to store temparary data while running. when process stop automatically process cleanup the his temporary data from /tmp
